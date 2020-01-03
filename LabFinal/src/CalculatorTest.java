@@ -55,7 +55,7 @@ class CalculatorTest {
 		
 	}
 	
-	@Test
+	@Test()
 	void square_test_2() {
 		
 		int num = 2;

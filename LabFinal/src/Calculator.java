@@ -1,7 +1,6 @@
 /**
- * 
- * @author Ahmed Ali
- * Calculator - This is calculator class. This class performs the basic operation of finding maximum number, finding square and finding the cube.
+ *  Calculator - This is calculator class. This class performs the basic operation of finding maximum number, finding square and finding the cube.
+ *  @author Ahmed Ali
  */
 public class Calculator {
 	
