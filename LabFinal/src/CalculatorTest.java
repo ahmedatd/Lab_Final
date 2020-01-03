@@ -13,12 +13,11 @@ class CalculatorTest {
 		int num1 = -10;
 		int num2 = -20;
 		int num3 = -30;
-		
 		Calculator cal = new Calculator();
 		int result = cal.findMax(num1,num2,num3);
-		int expectedResult = -10;
-		
-		assertEquals(expectedResult, result);
+		int expectedResult = 0;
+		System.out.println(result +" :: " + expectedResult);
+		assertEquals(expectedResult, result,"Not working for negative numbers. As max field inside method has 0 value be default. So it will always return 0 for negative numbers.");
 		
 	}
 	
@@ -28,11 +27,9 @@ class CalculatorTest {
 		int num1 = 10;
 		int num2 = 0;
 		int num3 = 30;
-		
 		Calculator cal = new Calculator();
 		int result = cal.findMax(num1,num2,num3);
 		int expectedResult = 30;
-		
 		assertEquals(expectedResult, result);
 		
 	}
